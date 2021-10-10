@@ -24,7 +24,7 @@ for n=1:(l-7)
     R_mm(1,n)=(R_mm(1,n))/7;
 end 
 
-Giorni_2(:,1)=datetime(2020,03,18)+caldays(0:l-8);
+Giorni_2(:,1)=datetime(2020,03,18)+caldays(0:l-8); %vettore per il plot della media Mobile
 
 %plotto il vettore giorni vs il vettore R; 
 figure('Name','Andamento di Rt')
