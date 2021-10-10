@@ -35,7 +35,7 @@ grid minor
 hold on
 plot(Giorni_2,R_mm,'b') 
 hold on 
-yline(1,'--')
+yline(1,'--') 
 legend('Rt giornaliero','Media mobile','Rt=1')
 end
 
